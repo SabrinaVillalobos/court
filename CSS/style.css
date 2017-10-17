@@ -1,0 +1,110 @@
+
+body {
+   margin: 0;
+   padding: 0;
+}
+
+.court {
+	background-color: #8CB27C;
+	width: 1000px;
+	height: 499px;
+}
+
+.court-inside {
+
+	position: absolute;
+	background-color: #8CB27C;
+	width: 955px;
+	height: 455px;
+	top:20px;
+	right:;
+	left:20px;
+	bottom:;
+	border-color: #FFFFFF;
+	border-style: solid;
+	border-width: 5px;
+
+}
+
+.lil-rectanglel {
+	position: absolute;
+	width:100px;
+	height: 190px;
+	border-color: #FFFFFF;
+	border-style: solid;
+	border-width: 5px;
+	background-color: #8CB27C;
+	top:150px;
+	right:;
+	left:20px;
+	bottom:;
+}
+
+.lil-rectangler {
+	position: absolute;
+	width:100px;
+	height: 190px;
+	border-color: #FFFFFF;
+	border-style: solid;
+	border-width: 5px;
+	background-color: #8CB27C;
+	top:150px;
+	right:;
+	left:875px;
+	bottom:;
+}
+
+.circle {
+	position: relative;
+	border-radius: 50%;
+	width: 190px;
+	height: 190px; 
+	background-color:#8CB27C;
+	top:;
+	right:;
+	left:410px;
+	bottom:349px;
+	border-color: #FFFFFF;
+	border-style: solid;
+	border-width: 5px;
+}
+
+#balls {
+	position:relative;
+}
+
+#balls li {
+    list-style: none;
+    
+}
+
+#balls a {
+    width: 24px;
+    height: 24px;
+    display: block;
+}
+
+#ball1 {
+	background: url(../img/spriteballs.png) no-repeat -110px -155px;
+	width: 24px;
+	height: 24px;
+}
+
+#ball2 {
+	
+	background: url(../img/spriteballs.png) no-repeat -510px -80px;
+	width: 24px;
+	height: 24px;
+
+}
+
+#ball3 {
+	
+	background: url(../img/spriteballs.png) no-repeat -510px -80px;
+	width: 24px;
+	height: 24px;
+	top:150px;
+	right:;
+	left:875px;
+	bottom:;
+}
